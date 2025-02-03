@@ -20,7 +20,7 @@ from django.urls import path
 
 
 def health(request):
-    return JsonResponse({"status": "ok", "message": "Health check passed!"})
+    return JsonResponse({"status": "ok", "message": "Health check passed"})
 
 urlpatterns = [
     path('admin/', admin.site.urls),
